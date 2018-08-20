@@ -1,0 +1,67 @@
+$map-height: 778px;
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+$alignment: center;
+$border-value: 1px solid #d3d3d3;
+$max-width: 363px;
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #4a4a4a;
+    color: #e3e3e3;
+    font-size: 20px;
+    font: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+#panel {
+    height: 94.5%;
+    overflow-y: auto;
+    max-height: 94.5%;
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 0;
+    margin: 0;
+}
+
+#map {
+    position: fixed;
+    overflow: hidden;
+    width: 75%;
+    right: 0;
+    margin-top: 0px;
+    height: 94.5%;
+    padding: 0;
+    margin: 0;
+}
+
+.card-title {
+    text-align: center;
+    font: $font-stack;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.card {
+    max-width: $max-width;
+    border: 1px solid lightgrey;
+    color: black;
+    background-color: white;
+}
+
+.active {
+    max-width: $max-width;
+    border: 1px solid lightgrey;
+    color: white;
+    background-color: grey;
+}
+
+.card-img-top {
+    max-width: $max-width;
+}

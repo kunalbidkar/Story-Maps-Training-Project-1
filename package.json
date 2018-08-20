@@ -1,0 +1,28 @@
+{
+  "name": "firstmapproject",
+  "version": "1.0.0",
+  "description": "Map Displaying all nearby bridges in South Bay",
+  "main": "serviceWorker.js",
+  "scripts": {
+    "sass-build": "sass stylesheets/style.scss build/style.css",
+    "optimizeImages": "node scripts/npmScripts.js",
+    "build": "npm run sass-build && npm run optimizeImages",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunalbidkar/Story-Maps-Training-1.git"
+  },
+  "author": "Kunal Bidkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kunalbidkar/Story-Maps-Training-1/issues"
+  },
+  "homepage": "https://github.com/kunalbidkar/Story-Maps-Training-1#readme",
+  "dependencies": {
+    "node-sass": "^4.9.0",
+    "sass": "^1.7.1",
+    "tinify": "*"
+  },
+  "keywords": []
+}
