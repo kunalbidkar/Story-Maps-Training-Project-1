@@ -53,7 +53,7 @@ Finally, if the user clicks on any one of the point of the map, he can see its d
 * [Bootstrap](https://getbootstrap.com/) - Building responsive, mobile-first projects on the web.
 * [ArcGIS](https://developers.arcgis.com/) - ArcGIS is a platform for organizations to create, manage, share, and analyze spatial data. It consists of server components, mobile and desktop applications, and developer tools.
 * [npm](https://npmjs.com) - Default package manager for the JavaScript runtime environment Node.js
-* [Google Workbox] (https://developers.google.com/web/tools/workbox/guides/get-started) - Provides offline support for your application by storing the media in the browser cache.
+* [Google Workbox](https://developers.google.com/web/tools/workbox/guides/get-started) - Provides offline support for your application by storing the media in the browser cache.
  
 
 ## Authors
