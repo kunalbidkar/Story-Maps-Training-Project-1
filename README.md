@@ -3,7 +3,7 @@
 
 
 This application consists of Bootstrap cards on the left panel and the right hand panel corresponds to a geographical map. There are few custom points plotted on the map which correspond to the location of bridges (in this case) on the graph. 
-This is a web appliation implemented using JavaScript, JQuery, Bootstrap, arcGIS APIs such as Map, InfoWindow, Popups etc. 
+This is a web appliation implemented using JavaScript, JQuery, Bootstrap, ArcGIS APIs such as Map, InfoWindow, Popups etc. 
 Whenever you hit the url for the first time, a service worker gets register under the Applications -> Service Worker inside the inspect element. The service worker is scripted in such a way that it will cache all the media files in the browser cache and the next time you run this application, it can even work as before with offline network.
 
 ## Getting Started
