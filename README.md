@@ -4,6 +4,7 @@
 
 This application consists of Bootstrap cards on the left panel and the right hand panel corresponds to a geographical map. There are few custom points plotted on the map which correspond to the location of bridges (in this case) on the graph. 
 This is a web appliation implemented using JavaScript, JQuery, Bootstrap, arcGIS APIs such as Map, InfoWindow, Popups etc. 
+Whenever you hit the url for the first time, a service worker gets register under the Applications -> Service Worker inside the inspect element. The service worker is scripted in such a way that it will cache all the media files in the browser cache and the next time you run this application, it can even work as before with offline network.
 
 ## Getting Started
 
@@ -50,8 +51,9 @@ Finally, if the user clicks on any one of the point of the map, he can see its d
 * [HTML5](https://www.w3schools.com/html/html5_intro.asp) - Standard markup language for creating Web pages.
 * [Sass](https://sass-lang.com/guide) - Extension of CSS that adds power and elegance to the basic language
 * [Bootstrap](https://getbootstrap.com/) - Building responsive, mobile-first projects on the web.
-* [ARCGIS](https://developers.arcgis.com/) - ArcGIS is a platform for organizations to create, manage, share, and analyze spatial data. It consists of server components, mobile and desktop applications, and developer tools.
+* [ArcGIS](https://developers.arcgis.com/) - ArcGIS is a platform for organizations to create, manage, share, and analyze spatial data. It consists of server components, mobile and desktop applications, and developer tools.
 * [npm](https://npmjs.com) - Default package manager for the JavaScript runtime environment Node.js
+* [Google Workbox] (https://developers.google.com/web/tools/workbox/guides/get-started) - Provides offline support for your application by storing the media in the browser cache.
  
 
 ## Authors
