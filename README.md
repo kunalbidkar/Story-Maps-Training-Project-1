@@ -4,6 +4,7 @@
 
 This application consists of cards on the left panel and the right hand panel corresponds to a geographical map. There are few custom points plotted on the map which correspond to the location of bridges (in this case) on the graph. 
 This is a web appliation implemented using JavaScript, Bootstrap (previous version), ArcGIS JavaScript APIs such as Map, InfoWindow, Popups etc. 
+Tinify - A node module is used to compress the images that are too huge in size. When you run "npm run build" then first, the css gets compliled and then the script responsible for compressing these files gets executed.  
 Whenever you hit the url for the first time, a service worker gets register under the Applications -> Service Worker inside the inspect element. The service worker is scripted in such a way that it will cache all the media files in the browser cache and the next time you run this application, it can even work as before with offline network.
 
 ## Getting Started
